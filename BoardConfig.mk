@@ -22,3 +22,6 @@ TARGET_OTA_ASSERT_DEVICE := g4,p1,$(CLEAN_MODEL)
 
 # inherit from the proprietary version
 -include vendor/lge/h815/BoardConfigVendor.mk
+WITH_DEXPREOPT := true
+WITH_DEXPREOPT_DEBUG_INFO := false
+WITH_DEXPREOPT_BOOT_IMG_AND_SYSTEM_SERVER_ONLY := false
