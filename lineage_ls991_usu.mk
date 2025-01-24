@@ -32,9 +32,7 @@ CLEAN_MODEL := $(PRODUCT_DEVICE:_usu=)
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_DEVICE="g4" \
     PRODUCT_NAME="p1_global_com" \
-    PRIVATE_BUILD_DESC="p1_spr_us-user 6.0 MRA58K 160741805a3e8 release-keys"
 
-BUILD_FINGERPRINT := "lge/p1_spr_us/p1:6.0/MRA58K/160741805a3e8:user/release-keys"
 
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.radio.do_not_init_csvt=1 \
